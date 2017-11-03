@@ -6,10 +6,12 @@
     <title>Exercice 2</title>
   </head>
   <body>
-      <img src="images/image.jpg" id="image" />
+    <img src="images/image.jpg" id="image" />
       <script>
-        $('#image').dblclick(function() {
+        $(function(){
+          $('#image').dblclick(function() {
           $('#image').css('width', '500px');
+        });
         });
       </script>
   </body>
